@@ -157,29 +157,11 @@ contactForm.addEventListener("submit", function (event) {
    GOOGLE APPS SCRIPT
 ===================================== */
 
-/*
-   IMPORTANT:
-
-   Replace the URL below after creating
-   your Google Apps Script Web App.
-
-   Example:
-
-   const GOOGLE_SCRIPT_URL =
-   "https://script.google.com/macros/s/XXXX/exec";
-*/
-
 const GOOGLE_SCRIPT_URL = "";
 
 
 function sendToGoogleSheets(response) {
 
-  /*
-     If URL is empty, we only use localStorage.
-
-     This allows the project to work in CodePen
-     before Google Apps Script is configured.
-  */
 
   if (!GOOGLE_SCRIPT_URL) {
 
@@ -246,11 +228,9 @@ const logoutButton =
 /*
    DEMO ADMIN CREDENTIALS
 
-   Username:
-   admin
+   Username : admin
 
-   Password:
-   priyabhanu123
+   Password : priyabhanu123
 */
 
 
@@ -437,19 +417,6 @@ document
 /* =====================================
    DEMO DATA
 ===================================== */
-
-/*
-   This function creates sample responses
-   so you can demonstrate the admin panel
-   during your project presentation.
-
-   Run:
-
-   addDemoData()
-
-   from browser console.
-*/
-
 
 function addDemoData() {
 
